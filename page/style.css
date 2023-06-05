@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 0.4px;
+}
+body{
+    width: 21cm;
+    height: 29.7cm;
+    /* change the margins as you want them to be. */
+    -webkit-print-color-adjust: exact;
+}
+.part1{
+    width: 100%;
+    height: 180px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+.part1 .a1{
+    height: 70%;
+    width: 478px;
+    clip-path: polygon(0 0, 100% 0, 78.25% 100%, 0% 100%);
+    /* background-color: gray; */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.part1 .a2{
+    height: 29.7%;
+    width: 374px;
+    clip-path: polygon(0 0, 100% 0, 88% 100%, 0% 100%);
+    background-color: rgb(20, 38, 99);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.part1 .a3{
+    height: 100%;
+    width: 269px;
+    clip-path: polygon(85% 0, 100% 0, 45% 100%, 30% 100%);
+    background-color: rgb(23, 57, 160);
+    position: absolute;
+    top: 0;
+    right: 273.3px;
+}
+.part1 .a4{
+    height: 100%;
+    width: 419px;
+    clip-path: polygon(35.3% 0, 100% 0, 100% 100%, 0 100%);
+    background-color: rgb(20, 38, 99);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.part2{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.part2 .b1{
+    width: 40%;
+    height: 100%;
+}
+.part2 .b1 h5{
+    color: navy;
+   
+}
+.part2 .b1 h2{
+    margin-top: 4px;
+}
+.part2 .b1 p{
+    margin-top: 4px;
+    font-size: small;
+}
+.b2{
+    height: 100;
+  
+}
+.b2 h4{
+    color: navy;
+    font-size: 22px;
+    margin-top: 10px;
+}
+.b2 p{
+    display: inline-block;
+    font-size: 14px!important;
+    margin-top: 6px;
+}
+.part3{
+    width: 100%;
+    height: 100px;
+    padding: 0px 37px 0px 37px ;
+}
+.part3 h4{
+    color: navy;
+    margin-top: 10px;
+}
+.part3 p{
+    font-size: small;
+    margin-top: 6px;
+    line-height: 18px;
+}
+.part4{
+    width: 100%;
+    padding: 0px 37px 0px 37px ;
+}
+.part4 .c{
+    width: 100%;
+    height: 30px;
+    position: relative;
+}
+.part4 .c0{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.part4 .c1{
+    width: 90px;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0%, 60% 100%, 0% 100%);
+    background-color: rgb(20, 38, 99);
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 25px;
+}
+.part4 .c2{
+    width: 353px;
+    height: 100%;
+    clip-path: polygon(10.1% 0%, 100% 0%, 90.1% 100%, 0% 100%);
+     background-color: rgb(20, 38, 99);
+    position: absolute;
+    top: 0;
+    left: 56px;
+    padding-left: 35px;
+}
+.part4 .c3{
+    width: 135px;
+    height: 100%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: rgb(45, 79, 182);
+    position: absolute;
+    top: 0;
+    right: 206px;
+    padding-left: 50px;
+}
+.part4 .c4{
+    width: 135px;
+    height: 100%;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: rgb(45, 79, 182);
+    position: absolute;
+    top: 0;
+    right: 103px;
+    padding-left: 35px;
+}
+.part4 .c5{
+    width: 135px;
+    height: 100%;
+    clip-path: polygon(25% 0, 100% 0%, 100% 100%, 0 100%);
+    background-color: rgb(45, 79, 182);
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 50px;
+}
+.part5{
+    width: 100%;
+    margin-bottom: 10px;
+   
+
+    /* added by talha */
+    padding: 0px 37px 0px 37px ;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.part6{
+    width: 100%;
+  
+    
+      /* added by talha */
+      padding: 0px 37px 0px 37px ;
+      display: flex;
+      flex-direction: row;
+      
+}
+
+
+
+
+
+/* ADDED BY TALHA */
+#logo{
+    height: 80px;
+    margin: 30px;
+}
+.headTitle{
+    margin-top: 50px;
+    margin-left: 110px;
+    color: white!important;
+    font-size: 13px!important;
+    font-weight: 400;
+}
+.headTitle>p{
+    margin-bottom: 5px;
+}
+.headTitle>h5{
+    color: white;
+    font-size: 38px!important;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 25px;
+    letter-spacing: 3px;
+ 
+}
+.bg{
+    background-color: transparent!important;
+    color: black!important;
+    text-align: center;
+}
+.bg.c3{
+    right: 220px!important;
+}
+.bg.c4{
+    right: 80px!important;
+}
+.bg.c5{
+    right: 10px!important;
+}
+#tableHead{
+    margin-bottom: 10px;
+}
+.tableData{
+    border-bottom: 1px gray solid!important;
+}
+.d2{
+    width: 20%;
+    flex: 2;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.d1{
+    flex: 4;
+    margin-top: 30px;
+}
+.d1 p{
+    font-size: small;
+}
+.d1 h4{
+    color: rgb(45, 79, 182);
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+
+.totalbox{
+    margin-top: 10px;
+    width: 280px;
+    height: 40px;
+    clip-path: polygon(15% 0, 100% 0%, 100% 100%, 0 100%);
+    background-color: rgb(45, 79, 182);
+    padding-left: 60px;
+    padding-top: 10px;
+    margin-left: -60px;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+}
+.g1{
+    color: black;
+    font-size: 18px;
+    margin-top: 10px;
+
+}
+.h1{
+    flex: 6;
+}
+.h2{
+    flex: 2;   
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: flex-end; 
+}
+.bottomBar{
+    width: 480px;
+    height: 40px;
+    clip-path: polygon(0% 0, 90% 0%, 100% 100%, 0 100%);
+    background-color: rgb(45, 79, 182);
+    padding-left: 60px;
+    margin: 0px -37px 0px -37px ;
+    margin-top: 40px;
+}
+#stamp{
+    height: 200px;
+    
+    position: absolute;
+    
+
+
+}
+.b1{
+    border: 1px dashed black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+}
